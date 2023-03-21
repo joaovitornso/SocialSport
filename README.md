@@ -99,10 +99,15 @@ CREATE DATABASE IF NOT EXISTS sportsocial;
 
 Entre em todas as classe DAO que estao em SocialSport/Java Resources/src/main/java/model/ e troque as variáveis user e password para a senha e usuário do seu MySQL
 
-Link de vídeo explicando o sistema no YouTube
+# Layout do projeto
+
+![Web 1]()
+
+
+# Link de vídeo explicando o sistema no YouTube
 https://youtu.be/9VOXavmCM9k
 
-Autores
+# Autores
 Adauto Benevides Couto
 
 João Vitor Nascimento de Souza
