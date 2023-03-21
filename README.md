@@ -1,6 +1,4 @@
-[21:28, 06/02/2023] João: # Social Sport
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/joaovitornso/social-sport/blob/main/LICENSE) 
-
+# Social Sport
 
 # Equipe:
 
