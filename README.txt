@@ -108,7 +108,6 @@ Adauto Benevides Couto
 
 João Vitor Nascimento de Souza
 
-Higo Alves
 
 www.linkedin.com/in/joaovitornso
 
