@@ -2,7 +2,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/joaovitornso/social-sport/blob/main/LICENSE) 
 
 
-#Equipe:
+# Equipe:
 
 - Adauto Benevides Couto
 - João Vitor Nascimento de Souza
