@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Administrador | Adicionar Local</title>
+<link rel="stylesheet" href="css/stile.css">
+<link rel="stylesheet" href="css/form.css">
+<script src="scripts/validador.js"></script>
+</head>
+<body>
+	<h1>Adiconar Local</h1>
+	<form name="frmLocal" action="insertLocal">
+		<fieldset id="usuario">
+			<legend> Dados do Local</legend>
+			<p>
+				<label for="cRua"> Rua: </label><input type="text" name="rua"
+					id="cRua" placeholder="Nome da Rua">
+			</p>
+			<p>
+				<label for="cBairro"> Bairro: </label><input type="text"
+					name="bairro" id="cBairro" placeholder="Nome do Bairro">
+			</p>
+			<p>
+				<label for="cCidade"> Cidade: </label><input type="text"
+					name="cidade" id="Cidade" placeholder="Nome da Cidade">
+			</p>
+			<p>
+				<label for="cTipo"> Tipo: </label><input type="text"
+					name="tipo" id="Tipo" placeholder="Ex.: quadra,pracinha,campo, etc.">
+
+			</p>
+		</fieldset>
+		<input class="botao1" type="button" value="Adicionar"
+			onclick="validarLocal()">
+	</form>
+</body>
+</html>

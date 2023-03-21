@@ -1,0 +1,295 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SocialSport</title>
+<link rel="stylesheet"
+	href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/stile.css">
+<link rel="stylesheet" href="css/style.css">
+<!-- <link rel="stylesheet" href="styles.css"> -->
+<script src="https://kit.fontawesome.com/022b4f414f.js"
+	crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/6d7f608b99.js"
+	crossorigin="anonymous"></script>
+</head>
+
+<input type="checkbox" id="check">
+<label for="check"> <i class="fa-solid fa-bars" id="btn"></i> <i
+	class="fa-solid fa-xmark" id="cancel"></i>
+</label>
+<div class="sidebar">
+	<header>Social Sport Menu</header>
+	<a href="index.html" class="active"> <span>Home</span> <i
+		class="fa-solid fa-house"></i>
+	</a> <a href="#"> <i class="fa-solid fa-user"></i> <span>Jogadores</span>
+	</a> <a href="#"> <i class="fa-solid fa-people-group"></i> <span>Time</span>
+	</a> <a href="#"> <i class="fa-solid fa-volleyball"></i> <span>Esporte</span>
+	</a> <a href="#"> <i class="fa-solid fa-flag-checkered"></i> <span>Partida</span>
+	</a> <a href="#"> <i class="fa-solid fa-medal"></i> <span>Campeonato</span>
+	</a> <a href="#"> <i class="fa-solid fa-trophy"></i> <span>Liga</span>
+	</a> <a href="#"> <i class="fa-solid fa-circle-user"></i> <span>Login</span>
+	</a>
+</div>
+
+<body style="overflow: auto">
+	<div class="background__interface"
+		style="position: absolute; top: 0px; width: 100%; height: 1500px; display: block;">
+
+		<header class="header">
+			<div class="header_content">
+				<button class="btn_icon_header">
+					<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+						fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+							d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+				</button>
+				<a class="header_logo">Social Sport </a>
+
+				<div class="navigation_header">
+					<button class="btn_icon_header">
+						<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+							fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                <path
+								d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                            </svg>
+					</button>
+					<!-- <h1>Menu Principal</h1> -->
+
+					<a href="index.html" class="header_item"> Home <i
+						class="fa-solid fa-house-chimney"></i></a> <a href="jogador"
+						class="header_item"> Jogador <i class="fa-solid fa-user"></i></a>
+					<a href="time" class="header_item"> Time <i
+						class="fa-solid fa-people-group"></i></a> <a href="esporte"
+						class="header_item"> Esporte <i class="fa-solid fa-volleyball"></i>
+					</a> <a href="partida" class="header_item"> Partida <i
+						class="fa-solid fa-flag-checkered"></i></a> <a href="campeonato"
+						class="header_item"> Campeonato &nbsp;<i
+						class="fa-solid fa-medal icon-User"></i></a> <a href="liga"
+						class="header_item "> Liga<i class="fa-solid fa-trophy"></i></a>
+
+				</div>
+				<div class="header_admin header_admin--user">
+					<div class="header_button header_button--user">
+						<a href="jsp/login.jsp" class="header_item-login"> Login <i
+							class="fa-solid fa-circle-user"></i></a>
+					</div>
+				</div>
+				<div class="header_menu_toggle">
+					<a href="#"> IconeMenuToggle</a>
+				</div>
+			</div>
+
+		</header>
+
+		<nav class="menuListSports">
+			<div class="menuListSports__content"></div>
+
+		</nav>
+		<div class="container">
+			<div class="container__content content">
+				<div class="container_mainInner" style="display: grid;">
+					<aside class="container_myMenu">
+						<div class="menu minhas-ligas leftMenu meusTimes">
+							<div class="leftMenu__head">
+								<i class="fa-solid fa-trophy leftMenu__icon"></i> <span
+									class="leftMenu_title">Minhas Ligas</span>
+								<!-- <svg class="leftMenu__icon leftMenu__icon--star">
+                                    <use xlink:href="/res/_fs/image/13_symbols/action.svg#star"></use>
+                                </svg> -->
+							</div>
+							<div class="minha_lista_ligas">
+								<div class="leftMenu_item" title="BRASIL: Liga Super Salão">
+									<a class="leftMenu_href" href="#"> <span
+										class="leftMenu_flag flag fl_brazil"></span> <span
+										class="leftMenu_text">Liga Super Salão</span>
+									</a> <span title="Favoritar liga" class="toggleMinhaLiga active">
+										<svg class="leftMenu_star star">
+                                        </svg>
+									</span>
+								</div>
+							</div>
+
+						</div>
+
+					</aside>
+					<main class="container_noticia_principal sport_page">
+						<div class="container_liveTable">
+							<section>
+								<div class="container_cabecalho_artigo">
+									<div class="cabecalho">
+										<hgroup>
+											<!-- <h3> Esportes > SocialSport</h3> -->
+											<h1>Saiba tudo sobre o SocialSport</h1>
+											<h2>Por Adauto Benevides, João Vitor Nascimento e Higo
+												Alves</h2>
+											<!-- <h3 class="direita">Atualizado em</h3> -->
+										</hgroup>
+									</div>
+									<div class="calendario">
+										<button class="calendario_navigation" aria-expanded="false"
+											href="#" title="Dia anterior">
+											<i class="fa-solid fa-arrow-left"></i>
+										</button>
+										<button class="calendarioMenu" aria-expanded="false"
+											class="calendario_datepicker">
+											<i class="fa-regular fa-calendar"></i>
+											<script>
+												date = new Date()
+														.toLocaleDateString();
+												document.write(date);
+											</script>
+										</button>
+										<button class="calendario_navigation" aria-expanded="false"
+											href="#" title="Dia seguinte">
+											<i class="fa-solid fa-arrow-right"></i>
+										</button>
+										<!-- </div> -->
+									</div>
+									<p>O SocialSport é um lugar onde você poderá experimentar
+										de diversas experiências desde montar pequenas equipes para
+										organizar pequenas partidas até montar campeonatos e ligas
+										onde competira vários times e a melhor das equipes será
+										recompensada, um dos principais componentes aqui são os
+										jgadores onde todos os integrantes da equipe deverá estar
+										devidamente cadastrado para a realização dos eventos e
+										partidas, um jogador de um time, caso o time esteja de acordo
+										também poderá solicitar um desafio a outra equipe que irá
+										decidir se quer participar ou não onde uma partida será
+										iniciada caso aceite.</p>
+								</div>
+							</section>
+							<div class="container_noticia">
+								<main class="container_tex">
+									<div class="container_jogadores">
+										<h1>&nbsp;&nbsp;Jogadores</h1>
+										<p>Os jogadores podem ser cadastrados diretamente no
+											sistema, conseguindo participar de partidas, campeonatos e
+											até ligas importantes. Para jogar uma partida o jogador
+											precisa fazer parte de um time, onde podemos alocá-lo.</p>
+										<p>
+											<a href="jogador"> <b> Clique aqui para ir para
+													a pagina dos jogadores </b></a>
+										</p>
+										<div class="img_noticias">
+											<img id="img_futsal" src="imagens/jogador_futsal.jpg" alt="">
+											<img id="img_volei" src="imagens/jogadores_volei.jpg" alt="">
+										</div>
+
+									</div>
+									<h1>&nbsp;&nbsp;Times</h1>
+									<p>Os times são compostos por jogadores, onde a depender do
+										esporte mudará sua quantidade, partidadas poderam ser
+										organizadas entre times entrando no menu do jogador para uma
+										partida simples onde se podera sortear jogadores para um time
+										não oficial, ou quando se cria um campeonato ou torneio, que
+										terá uma fase de grupos onde times se enfrentarão até que
+										chegue na final onde só haverá dois times sendo apenas um
+										campeão.</p>
+									<p>
+										<a href="time"> <b> Clique aqui para ir para a
+												pagina de times </b>
+										</a>
+									</p>
+									<div class="img_noticias">
+										<img id="img_time" src="imagens/time.jpg" alt="">
+									</div>
+
+									<h1>&nbsp;&nbsp;Partidas</h1>
+									<p>Para organizar uma partida terá de haver pelo menos dois
+										times e um esporte, pode ser organizada de uma maneira simples
+										com times gerados aleatoriamente na hora, onde a quantidade de
+										jogadores pode ser definida , ou quando é criado um campeonato
+										ou liga com regras e definições já definidas como quantidades
+										de jogadores.</p>
+									<p>
+										<a href="partida"> <b> Clique aqui para ir para a
+												pagina de partidas </b>
+										</a>
+									</p>
+									<div class="img_noticias">
+										<img id="img_partida1" src="imagens/partida1.png" alt="">
+										<!-- <img id="centro" src="/imagens/partida2.png" alt=""> -->
+									</div>
+
+									<h1>&nbsp;&nbsp;Esportes</h1>
+									<p>O esporte será o primeiro passo a se fazer para a
+										construção de uma partida, os esportes já existem, então será
+										selecionado o esporte que fará parte da partida, ou será
+										selecionadapara um campeonato ou liga.</p>
+									<p>
+										<a href="esporte"> <b> Clique aqui para ir para a
+												pagina de Esportes </b>
+										</a>
+									</p>
+									<div class="img_noticias">
+										<img id="centro" src="imagens/esportes.jpg" alt="">
+									</div>
+									<h1>&nbsp;&nbsp;Campeonatos</h1>
+									<p>Os campeonatos são eventos organizados, onde sera
+										selecionado um esporte e times para eventuais partidas, onde
+										haverá uma quantidade de jogos até que no final haja um
+										vencedor, sendo aquele que venceu mais partidas, esse time
+										será premiado.</p>
+									<p>
+										<a href="campeonato"> <b> Clique aqui para ir
+												para a pagina de Campeonatos </b>
+										</a>
+									</p>
+									<div class="img_noticias">
+										<img id="img_campeonato" src="imagens/campeonato.jpg" alt="">
+									</div>
+
+									<h1>&nbsp;&nbsp;Ligas</h1>
+									<p>A liga semelhantemente ao campeonato, será um evento
+										onde haverá um esporte e times, porém com um pequeno
+										diferencial que será um evento onde times que ganharam as
+										últimas edições do campeonato serão os únicos que poderam
+										participar, haverá também uma fase de grupos com 3 equipes e 4
+										grupos, onde só passará um de cada grupo, após isso o time que
+										venceu do grupo 1, disputará com quem venceu do grupo 2,
+										igualmente com os grupos 3 e 4, fazendo com que só dois
+										cheguem a final da liga, esses faram uma partida onde o
+										vencedor sairá com o troféu e suas devidas premiações.</p>
+									<p>
+										<a href="liga"> <b> Clique aqui para ir para a
+												pagina de Campeonatos </b>
+										</a>
+									</p>
+									<div class="img_noticias">
+										<img id="img_liga" src="imagens/liga1.jpg" alt=""> <img
+											id="img_liga" src="imagens/liga2.jpg" alt=""> <img
+											id="img_liga" src="imagens/liga3.jpg" alt="">
+									</div>
+								</main>
+							</div>
+						</div>
+					</main>
+
+					<div class="container_bannerZone">
+						<div class="meusBanners">
+							<img class="imgBanner" src="imagens/banners/bannerINTxMIL.png"
+								alt="Inter de Melões x Milano - 02 FEV 23 16:30" vspace="15px"
+								hspace="10px">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="rodape">
+			<p>
+				Copyright &copy; 2022 - by Adauto Benevides, João Vitor Nascimento
+				and Higo Alves<br> <a href="http://facebook.com/"
+					target="_blank"> Facebook </a> | <a href="" target="_blank">
+					Instagram </a>
+			</p>
+		</footer>
+	</div>
+</body>
+
+</html>

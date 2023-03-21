@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Novo time</title>
+<link rel="stylesheet" href="css/formNovo.css">
+<script src="scripts/validador.js"></script>
+</head>
+<body>
+	<div class="container_main-form">
+		<div class="container_form">
+			<div class="title">Nova Liga</div>
+			<form name="frmLiga" action="insertLiga">
+				<div class="user-details">
+					<div class="input-box">
+						<span class="details">Nome</span><input type="text" name="nome"
+							class="Caixa1" placeholder="Nome">
+					</div>
+					<div class="input-box">
+						<span class="details">Medalha</span>
+						<div class="select_form">
+							<select name="medalha" class="select" required="required">
+								<option value="" disabled selected>Selecione a Medalha</option>
+								<option>ouro</option>
+								<option>prata</option>
+								<option>bronze</option>
+							</select>
+						</div>
+					</div>
+					<div class="input-box">
+						<span class="details">Trofeu</span>
+						<div class="select_form">
+							<select name="trofeu" class="select" required="required">
+								<option value="" disabled selected>Selecione o Trofeu</option>
+								<option>champion</option>
+								<option>diamante</option>
+								<option>platina</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="button-form">
+					<input class="button_input" type="button" value="Nova Liga"
+						onclick="validarLiga()">
+				</div>
+			</form>
+			<script src="scripts/validador.js"></script>
+		</div>
+	</div>
+</body>
+</html>
+
+
+

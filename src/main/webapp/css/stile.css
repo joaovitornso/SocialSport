@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'FonteTitulo';
+	src: url("fonts/Fastup-Bold.ttf");
+}
+
+@font-face {
+	font-family: 'FonteSubTitulo';
+	src: url("fonts/Fastup-Regular.ttf");
+}
+
+body {
+	font-family: Arial, sans-serif;
+	/* background-image: url("imagens/background.jpg"); */
+	background-color: #4aa255;
+	color: rgb(255, 255, 255);
+}
+
+p {
+	text-align: justify;
+	text-indent: 30px;
+}
+/*configuração dos botões*/
+.Botao {
+	text-decoration: none;
+	background-color: green;
+	padding: 3px 7px 3px 7px;
+	font-size: 1.2em;
+	font-weight: 500;
+	border-radius: 5px;
+	color: #ffffff;
+}
+
+.BotaoEditar {
+	text-decoration: none;
+	background-color: #59c9ff;
+	padding: 3px 7px 3px 7px;
+	font-size: 1.2em;
+	font-weight: 500;
+	border-radius: 5px;
+	color: #ffffff;
+}
+
+.BotaoNovo {
+	margin-left: 135px;
+	margin-right: 60px;
+	text-decoration: none;
+	background-color: #ff8000;
+	padding: 5px 10px 5px 10px;
+	font-size: 1.2em;
+	font-weight: 500;
+	border-radius: 5px;
+	color: #ffffff;
+}
+
+.BotaoDeletar {
+	text-decoration: none;
+	background-color: #ff0000;
+	padding: 3px 7px 3px 7px;
+	font-size: 1.2em;
+	font-weight: 500;
+	border-radius: 5px;
+	color: #ffffff;
+}
+
+.BotaoAcesso {
+	text-decoration: none;
+	background-color: green;
+	padding: 5px 10px 5px 10px;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	color: #ffffff;
+	margin-left: 325px;
+}
+
+#BotaoAlocar {
+	text-decoration: none;
+	background-color: #ff8000;
+	padding: 5px 10px 5px 10px;
+	font-size: 1.2em;
+	font-weight: 500;
+	border-radius: 5px;
+	color: #ffffff;
+}
+
+header#cabecalho h1 {
+	font-family: Arial, sans-serif;
+	font-size: 60px;
+	color: #ffffff;
+	margin-left: 20px;
+}
+
+header#cabecalho h2 {
+	font-family: Arial, sans-serif;
+	margin-left: 20px;
+	margin-top: -50px;
+}
+
+header#cabecalho {
+	height: 100px;
+}
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -12px;
+	left: 570px;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #9cc2f3;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+}
+/* Corpo */
+section#corpo {
+	display: block;
+	width: 800px;
+	float: left;
+	border-right: 1px solid white;
+	padding-right: 15px;
+}
+/* Formatção do artigo principal da pagina */
+article#noticia_principal h2 {
+	font-size: 14pt;
+	color: white;
+	font-weight: bold;
+	background-color: #696666;
+	padding: 7px 0px 7px 0px;
+	margin: 20px 0px 10px 0px;
+}
+
+article#noticia_principal img#img_volei {
+	margin-left: 15.5px;
+}
+
+article#noticia_principal img#centro {
+	margin-left: 150px;
+}
+
+article#noticia_principal img#partida1 {
+	margin-left: 30px;
+}
+
+article#noticia_principal img#campeonato {
+	margin-left: 190px;
+}
+
+article#noticia_principal img#liga {
+	margin-left: 50px;
+}
+
+article#noticia_principal p a {
+	color: white;
+	text-decoration: none;
+}
+
+header#cabecalho_artigo h1 {
+	font-family: 'FonteTitulo', sans-serif;
+	font-size: 30pt;
+	color: #ffffff;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+header#cabecalho_artigo h2 {
+	background-color: transparent;
+	font-size: 15pt;
+	color: rgb(19, 18, 18);
+	margin: 0px;
+}
+
+header#cabecalho_artigo h3 {
+	font-size: 12;
+	color: #000;
+}
+
+.direita {
+	text-align: right;
+	height: 5px;
+}
+/*Tabela*/
+table#tabela {
+	margin-top: 30px;
+	border-collapse: collapse;
+	margin-bottom: 22px;
+	margin-left: 350px;
+}
+
+table#tabela th {
+	border: 1px solid #80ff80;
+	padding: 10px;
+	text-align: left;
+	background-color: green;
+	color: #fff;
+}
+
+table#tabela td {
+	border: 1px solid #c0c0c0;
+	padding: 10px;
+}
+
+/* Rodape */
+footer#rodape {
+	clear: both;
+	border-top: 1px solid white;
+}
+
+footer#rodape p {
+	text-align: center;
+}
+
+footer#rodape a {
+	color: white;
+}

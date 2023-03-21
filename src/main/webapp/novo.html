@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/formNovo.css">
+<script src="scripts/validador.js"></script>
+<title>Novo Jogador</title>
+</head>
+<body>
+	<div class="container_main-form">
+		<div class="container_form">
+			<div class="title">Registro de Jogadores</div>
+			<form name="frmJogador"action="insert">
+				<div class="user-details">
+					<div class="input-box">
+						<span class="details">Nome Completo</span> <input name="nome" type="text"
+							placeholder="Digite o nome completo" required >
+					</div>
+					<div class="input-box">
+						<span class="details">Número da camisa</span> <input name="nmrCamisa" type="text"
+							placeholder="Digite o número da camisa" required>
+					</div>
+					<div class="input-box">
+						<span class="details">Idade</span> <input name="idade" type="text"
+							placeholder="Digite a idade" required>
+					</div>
+				</div>
+				<div class="button-form">
+					<input class="button_input" type="submit" value="Adicionar"
+						onclick="validar()">
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
