@@ -114,10 +114,20 @@ Entre em todas as classe DAO que estao em
 SocialSport/Java Resources/src/main/java/model/ e troque as variáveis user e password para a senha e usuário do seu MySQL
 
 
-#Layout do projeto
+# Layout do projeto
 
-![Web]()
+## Página Inicial / Home Page
+![Home Page](https://github.com/joaovitornso/SocialSport/blob/master/assets/home-page.png)
 
+## Login
+![Login1](https://github.com/joaovitornso/SocialSport/blob/master/assets/Login-Part1.png)
+![Login 2](https://github.com/joaovitornso/SocialSport/blob/master/assets/Login-Part2.png)
+
+## Organizar campeonato
+![Organizar Campeonato](https://github.com/joaovitornso/SocialSport/blob/master/assets/organizarCampeonato.png)
+
+## Placar da partida
+![Placar da Partida](https://github.com/joaovitornso/SocialSport/blob/master/assets/placar_partida.png)
 
 # Link de vídeo explicando o sistema no YouTube
 ```https://youtu.be/9VOXavmCM9k```
@@ -130,72 +140,3 @@ SocialSport/Java Resources/src/main/java/model/ e troque as variáveis user e pa
 
 - www.linkedin.com/in/joaovitornso
 - https://www.linkedin.com/in/adauto-benevides-b61119263/
-Como executar o projeto
-Back end
-Pré-requisitos:
-
-OpenJDK 11;
-MySql
-Front end web
-Pré-requisitos: Linguagem JavaScript
-
-Passos para Execução do Projeto
-Pré requisitos
-OpenJDK 11;
-IDE: Eclipse Enterprise Java and Web Developers
-Apache Tomcat version v10.1
-#instalando o openjdk 11
-Vá em https://adoptopenjdk.net/ 
-e baixe a versão OPENJDK 11 (LTS)
-
-#instalando o eclipse
-Vá em https://www.eclipse.org/downloads/
-e baixe o eclipse
-Na instalação escolha a opção Eclipse IDE for Enterprise Java Developers
-Siga os passos e finalize a instalção
-
-
-#instalando o Apache Tomcat
-Vá em https://tomcat.apache.org/
-e baixe a versão Tomcat 10.1.5
-Extraia o arquivo e uma pasta e 
-cole em Disco Local (C:)
-Passo 1 - Baixar o todo o projeto do GitHub
-Baixe os arquivos do projeto e extraia-o dentro de um diretório
-
-Passo 2 - Abrir projeto no Eclipse Web Programming
-Abra o Eclipse e vá em File > Open Projects from File System... e escolha a pasta do projeto
-
-OBS.: O nome do administrador
-e a senha é aplicado diretamente no banco de dados
-Passo 3 - Configurar o Tomcat no Eclipse
-Na aba inferior encontre a guia Servers, clique com o botão direito do mouse vá em New e clique em Server.
-Na janela que abrir vá em Apache e escolha a versão do Tomcat instalado na sua máquina e clique em next.
-Na guia que surgiu selecione o projeto e clique em add, finalize clicando em Finish.
-Passo 4: Executar o projeto
-Clique no botão Run e selecione a configuração do servidor que você acabou de criar. Verifique se o projeto está sendo executado corretamento acessando o endereço https://localhost:8080 no navegador.
-
-Passo 5: Executar script SQL
-Execute o script SQL fornecido em seu SGBD MySQL para completar a instalação do projeto.
-
-CREATE DATABASE IF NOT EXISTS sportsocial;
-
-Entre em todas as classe DAO que estao em SocialSport/Java Resources/src/main/java/model/ e troque as variáveis user e password para a senha e usuário do seu MySQL
-
-# Layout do projeto
-
-![Web 1](https://github.com/joaovitornso/SocialSport/blob/master/assets/home-page.png)
-
-
-# Link de vídeo explicando o sistema no YouTube
-https://youtu.be/9VOXavmCM9k
-
-# Autores
-Adauto Benevides Couto
-
-João Vitor Nascimento de Souza
-
-
-www.linkedin.com/in/joaovitornso
-
-https://www.linkedin.com/in/adauto-benevides-b61119263/
